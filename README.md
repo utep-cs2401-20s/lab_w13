@@ -12,7 +12,7 @@ Your tasks will be to construct two new classes myStack and myQueue with the fol
     - `myStack(int size)` -- creates a new instance with data.length == size.
     - `myStack()` -- creates a new instance so data.length == 10.
 3. Your class will have the following methods:
-    - `public boolean push(String s`) -- pushes an element into the stack at top and increments the pointer. If top is out of bound and the element cannot be inserted return false, otherwise return true.
+    - `public boolean push(String s)` -- pushes an element into the stack at top and increments the pointer. If top is out of bound and the element cannot be inserted return false, otherwise return true.
     - `public String pop()` - pops the top element in the data structure (i.e. the one at top) and updates the value of top. Returns null if no elements are in the stack.
     - `public String peek()` - accesses the top element in the data structure (i.e. the one at top) but leaves it in place. Returns null if no elements are in the stack.
 
